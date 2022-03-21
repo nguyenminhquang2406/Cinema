@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Trang chủ</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <!-- Begin header -->
+            <header class="header">
+                <a href="#" class="header_logo">Cinema<span>plus</span></a>
+                <div class="header_search">
+                    <input type="text" placeholder="Tìm kiếm" class="header_search-input">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class="header_menu">
+                    <div class="header_login" id="btn-showModel">
+                        <i class="fa-solid fa-user"></i>
+                        <span>Đăng nhập</span>
+                    </div>
+                    <div class="user">
+                        <div class="header_user" id="user">
+                            <img src="img/user.png" alt="ảnh user" class="user-avatar">
+                            <p class="user-name">Admin</p>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                        <ul class="user-option">
+                            <li class="user-option-item">
+                                <a href="#">Tài Khoản</a>
+                            </li>
+                            <li class="user-option-item">
+                                <a href="#">Thoát</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="#" class="header-language active">VN</a>
+                    <a href="#" class="header-language">EN</a>
+                    <div class="header_menu-btn" id="btn-menu">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </div>
+            </header>
+            <!-- End header -->
+            <!-- Begin Nav -->
+            <nav class="header-nav">
+                <ul class="header-nav_list">
+                    <li class="header-nav_item"><a href="#" class="header-nav_link">mua vé</a></li>
+                    <li class="header-nav_item">
+                        <a href="#" class="header-nav_link">phim
+                            <i class="fa-solid fa-angle-down"></i>
+                        </a>
+                        <div class="drop-down">
+                            <h3 class="drop-down_title"><a href="#">PHIM ĐANG CHIẾU</a></h3>
+                            <ul class="drop-down_list">
+                                <li class="drop-down_item">
+                                    <a href="#">
+                                        <img src="img/BongDe.jpg" alt="ảnh phim bóng đè" class="drop-down_img">
+                                        <div class="drop-down_btn">MUA VÉ</div>
+                                    </a>
+                                    <p class="drop-down_name">BÓNG ĐÈ</p>
+                                </li>
+                                <li class="drop-down_item">
+                                    <a href="#">
+                                        <img src="img/XeCapCuu.jpg" alt="ảnh phim xe cấp cứu" class="drop-down_img">
+                                        <div class="drop-down_btn">MUA VÉ</div>
+                                    </a>
+                                    <p class="drop-down_name">AMBULANCE</p>
+                                    <p class="drop-down_desc">XE CẤP CỨU</p>
+                                </li>
+                                <li class="drop-down_item">
+                                    <a href="#">
+                                        <img src="img/TheBatMan.jpg" alt="ảnh phim The Batman" class="drop-down_img">
+                                        <div class="drop-down_btn">MUA VÉ</div>
+                                    </a>
+                                    <p class="drop-down_name">THE BATMAN</p>
+                                </li>
+                            </ul>
+                            <h3 class="drop-down_title"><a href="#">PHIM SẮP CHIẾU</a></h3>
+                            <ul class="drop-down_list">
+                                <li class="drop-down_item">
+                                    <a href="#">
+                                        <img src="img/NamMuoi.jpg" alt="ảnh phim come play with me" class="drop-down_img">
+                                        <div class="drop-down_btn">MUA VÉ</div>
+                                    </a>
+                                    <p class="drop-down_name">come play with me</p>
+                                    <p class="drop-down_desc">năm,mười,mười lăm</p>
+                                </li>
+                                <li class="drop-down_item">
+                                    <a href="#">
+                                        <img src="img/TheLostCity.jpg" alt="ảnh phim the lost city" class="drop-down_img">
+                                        <div class="drop-down_btn">MUA VÉ</div>
+                                    </a>
+                                    <p class="drop-down_name">the lost city</p>
+                                    <p class="drop-down_desc">thành phố mất tích</p>
+                                </li>
+                                <li class="drop-down_item">
+                                    <a href="#">
+                                        <img src="img/TheBadGuy.jpg" alt="ảnh phim TheBadGuys" class="drop-down_img">
+                                        <div class="drop-down_btn">MUA VÉ</div>
+                                    </a>
+                                    <p class="drop-down_name">the bad guys</p>
+                                    <p class="drop-down_desc">những kẻ xấu xa</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="header-nav_item"><a href="#" class="header-nav_link">rạp/giá vé</a></li>
+                    <li class="header-nav_item"><a href="#" class="header-nav_link">hỗ trợ</a></li>
+                    <li class="header-nav_item"><a href="#" class="header-nav_link">thành viên</a></li>
+                </ul>
+            </nav>
+            <!-- End nav -->
+            <!-- Begin Main -->
+            <div class="main">
+                <!--Begin slide -->
+                <div class="slider">
+                    <div id="btn-prev" class="slider_prev">
+                        <i class="fa-solid fa-angle-left"></i>
+                    </div>
+                    <div id="btn-next" class="slider_next">
+                        <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                    <ul class="slider_list-control">
+                        <li class="slider_item-control active"></li>
+                        <li class="slider_item-control"></li>
+                        <li class="slider_item-control"></li>
+                        <li class="slider_item-control"></li>
+                        <li class="slider_item-control"></li>
+                    </ul>
+                    <div id="slider" class="slider_content">
+                        <a href="#" class="slider_item">
+                            <img src="img/slider5.jpg" alt="ảnh phim the batman" class="slider_img">
+                        </a>
+                        <a href="#" class="slider_item">
+                            <img src="img/slider1.jpg" alt="ảnh phim bóng đè" class="slider_img">
+                        </a>
+                        <a href="#" class="slider_item">
+                            <img src="img/slider2.jpg" alt="ảnh phim ambulance" class="slider_img">
+                        </a>
+                        <a href="#" class="slider_item">
+                            <img src="img/slider3.jpg" alt="ảnh phim turning red" class="slider_img">
+                        </a>
+                        <a href="#" class="slider_item">
+                            <img src="img/slider4.jpg" alt="ảnh phim nightmare alley" class="slider_img">
+                        </a>
+                        <a href="#" class="slider_item">
+                            <img src="img/slider5.jpg" alt="ảnh phim the batman" class="slider_img">
+                        </a>
+                        <a href="#" class="slider_item">
+                            <img src="img/slider1.jpg" alt="ảnh phim bóng đè" class="slider_img">
+                        </a>
+                    </div>
+                </div>
+                <!-- End slider -->
+                <!-- Begin film section -->
+                <div class="film section">
+                    <div class="film section_header">
+                        <h3 class="section_header-title active" id="current-film-btn">
+                            phim đang chiếu
+                        </h3>
+                        <h3 class="section_header-title" id="coming-up-film-btn">
+                            phim sắp chiếu
+                        </h3>
+                    </div>
+                    <div class="film section_content active">
+                        <div class="film section_content-item">
+                            <a href="#">
+                                <img src="img/BongDe.jpg" alt="ảnh phim bóng đè" class="film section_content-img">
+                                <div class="film section_content-btn">MUA VÉ</div>
+                            </a>
+                            <h4 class="film section_content-name">bóng đè</h4>
+                            <h4 class="film section_content-desc"></h4>
+                        </div>
+                        <div class="film section_content-item">
+                            <a href="#">
+                                <img src="img/XeCapCuu.jpg" alt="ảnh phim ambulance" class="film section_content-img">
+                                <div class="film section_content-btn">MUA VÉ</div>
+                            </a>
+                            <h4 class="film section_content-name">ambulance</h4>
+                            <h4 class="film section_content-desc">xe cấp cứu</h4>
+                        </div>
+                        <div class="film section_content-item">
+                            <a href="#">
+                                <img src="img/TheBatMan.jpg" alt="ảnh phim the batman" class="film section_content-img">
+                                <div class="film section_content-btn">MUA VÉ</div>
+                            </a>
+                            <h4 class="film section_content-name">the batman</h4>
+                        </div>
+                        <div class="film section_content-item">
+                            <a href="#">
+                                <img src="img/GaDienBaoThu.jpg" alt="ảnh phim wrath of man" class="film section_content-img">
+                                <div class="film section_content-btn">MUA VÉ</div>
+                            </a>
+                            <h4 class="film section_content-name">wrath of man</h4>
+                            <h4 class="film section_content-desc">gã điên báo thù</h4>
+                        </div>
+                        <div class="film section_content-item">
+                            <a href="#">
+                                <img src="img/ConHemAcMong.jpg" alt="ảnh phim nightmare alley" class="film section_content-img">
+                                <div class="film section_content-btn">MUA VÉ</div>
+                            </a>
+                            <h4 class="film section_content-name">nightmare alley</h4>
+                            <h4 class="film section_content-desc">con hẻm ác mộng</h4>
+                        </div>
+                        <div class="film section_content-item">
+                            <a href="#">
+                                <img src="img/GauDoBienHinh.jpg" alt="ảnh phim turning red" class="film section_content-img">
+                                <div class="film section_content-btn">MUA VÉ</div>
+                            </a>
+                            <h4 class="film section_content-name">turning red</h4>
+                            <h4 class="film section_content-desc">gấu đỏ biến hình</h4>
+                        </div>
+                    </div>
+                    <div class="film section_content">
+                        <div class="film section_content-item">
+                            <a href="#">
+                                <img src="img/NamMuoi.jpg" alt="ảnh phim COME PLAY WITH ME" class="film section_content-img">
+                                <div class="film section_content-btn">MUA VÉ</div>
+                            </a>
+                            <h4 class="film section_content-name">COME PLAY WITH ME</h4>
+                            <h4 class="film section_content-desc">NĂM, MƯỜI, MƯỜI LĂM</h4>
+                        </div>
+                        <div class="film section_content-item">
+                            <a href="#">
+                                <img src="img/TheLostCity.jpg" alt="ảnh phim THE LOST CITY" class="film section_content-img">
+                                <div class="film section_content-btn">MUA VÉ</div>
+                            </a>
+                            <h4 class="film section_content-name">THE LOST CITY</h4>
+                            <h4 class="film section_content-desc">THÀNH PHỐ MẤT TÍCH</h4>
+                        </div>
+                        <div class="film section_content-item">
+                            <a href="#">
+                                <img src="img/TheBadGuy.jpg" alt="ảnh phim THE BAD GUYS" class="film section_content-img">
+                                <div class="film section_content-btn">MUA VÉ</div>
+                            </a>
+                            <h4 class="film section_content-name">THE BAD GUYS</h4>
+                            <h4 class="film section_content-desc">NHỮNG KẺ XẤU XA</h4>
+                        </div>
+                        <div class="film section_content-item">
+                            <a href="#">
+                                <img src="img/morbius.jpg" alt="ảnh phim MORBIUS" class="film section_content-img">
+                                <div class="film section_content-btn">MUA VÉ</div>
+                            </a>
+                            <h4 class="film section_content-name">MORBIUS</h4>
+                        </div>
+                        <div class="film section_content-item">
+                            <a href="#">
+                                <img src="img/fantasticBeasts.jpg" alt="ảnh phim FANTASTIC BEASTS: THE SECRETS OF DUMBLEDORE" class="film section_content-img">
+                                <div class="film section_content-btn">MUA VÉ</div>
+                            </a>
+                            <h4 class="film section_content-name">FANTASTIC BEASTS: THE SECRETS OF DUMBLEDORE</h4>
+                            <h4 class="film section_content-desc">Sinh vật huyền bí: Những bí mật của Dumbledore</h4>
+                        </div>
+                        <div class="film section_content-item">
+                            <a href="#">
+                                <img src="img/ngheSieuDe.jpg" alt="ảnh phim NGHỀ SIÊU DỄ" class="film section_content-img">
+                                <div class="film section_content-btn">MUA VÉ</div>
+                            </a>
+                            <h4 class="film section_content-name">NGHỀ SIÊU DỄ</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- End film section -->
+                <!-- Begin promotion -->
+                <div class="promotion section">
+                    <div class="section_header">
+                        <a href="#" class="promotion_link">
+                            <h3 class="section_header-title active">tin khuyến mãi</h3>
+                        </a>
+                    </div>
+                    <div class="promotion section_content">
+                        <a href="#" class="promotion_link-item">
+                            <img src="img/promotion1.jpg" alt="ảnh khuyễn mãi 1" class="promtion_img">
+                            <div class="promotion_info">
+                                <h3 class="promotion_title-item">happy day </h3>
+                                <p class="promotion_content-item">Vào <strong>thứ ba hàng tuần</strong> ưu đãi giá vé <strong>Chỉ từ 50k</strong></p>
+                            </div>
+                        </a>
+                        <a href="#" class="promotion_link-item">
+                            <img src="img/promotion2.png" alt="ảnh khuyễn mãi 2" class="promtion_img">
+                            <div class="promotion_info">
+                                <h3 class="promotion_title-item">Galaxy Cinema Tri Ân Thành Viên </h3>
+                            </div>
+                        </a>
+                        <a href="#" class="promotion_link-item">
+                            <img src="img/promotion3.jpg" alt="ảnh khuyễn mãi 1" class="promtion_img">
+                            <div class="promotion_info">
+                                <h3 class="promotion_title-item">happy day </h3>
+                                <p class="promotion_content-item">Vào <strong>thứ ba hàng tuần</strong> ưu đãi giá vé <strong>Chỉ từ 50k</strong></p>
+                            </div>
+                        </a>
+                        <a href="#" class="promotion_link-item">
+                            <img src="img/promotion4.jpg" alt="ảnh khuyễn mãi 1" class="promtion_img">
+                            <div class="promotion_info">
+                                <h3 class="promotion_title-item">happy day </h3>
+                                <p class="promotion_content-item">Vào <strong>thứ ba hàng tuần</strong> ưu đãi giá vé <strong>Chỉ từ 50k</strong></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- End promotion -->
+            </div>
+            <!-- End main -->
+            <!-- Begin footer -->
+            <footer class="footer">
+                <div class="footer_container section">
+                    <div class="footer_content">
+                        <div class="footer_content-header">
+                            <h3 class="footer_content-heading">giới thiệu</h3>
+                        </div>
+                        <ul class="footer_content-list">
+                            <li class="footer_content-item">
+                                <a href="#" class="footer_content-link">
+                                    <i class="fa-solid fa-angles-right"></i>
+                                    Về Chúng tôi
+                                </a>
+                            </li>
+                            <li class="footer_content-item">
+                                <a href="#" class="footer_content-link">
+                                    <i class="fa-solid fa-angles-right"></i>
+                                    thoả thuận sử dụng
+                                </a>
+                            </li>
+                            <li class="footer_content-item">
+                                <a href="#" class="footer_content-link">
+                                    <i class="fa-solid fa-angles-right"></i>
+                                    quy chế hoạt động
+                                </a>
+                            </li>
+                            <li class="footer_content-item">
+                                <a href="#" class="footer_content-link">
+                                    <i class="fa-solid fa-angles-right"></i>
+                                    chính sách bảo mật
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer_content">
+                        <div class="footer_content-header">
+                            <h3 class="footer_content-heading">giới thiệu</h3>
+                        </div>
+                        <ul class="footer_content-list">
+                            <li class="footer_content-item">
+                                <a href="#" class="footer_content-link">
+                                    <i class="fa-solid fa-angles-right"></i>
+                                    Về Chúng tôi
+                                </a>
+                            </li>
+                            <li class="footer_content-item">
+                                <a href="#" class="footer_content-link">
+                                    <i class="fa-solid fa-angles-right"></i>
+                                    thoả thuận sử dụng
+                                </a>
+                            </li>
+                            <li class="footer_content-item">
+                                <a href="#" class="footer_content-link">
+                                    <i class="fa-solid fa-angles-right"></i>
+                                    quy chế hoạt động
+                                </a>
+                            </li>
+                            <li class="footer_content-item">
+                                <a href="#" class="footer_content-link">
+                                    <i class="fa-solid fa-angles-right"></i>
+                                    chính sách bảo mật
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer_content">
+                        <div class="footer_content-header">
+                            <h3 class="footer_content-heading">giới thiệu</h3>
+                        </div>
+                        <ul class="footer_content-list">
+                            <li class="footer_content-item">
+                                <a href="#" class="footer_content-link">
+                                    <i class="fa-solid fa-angles-right"></i>
+                                    Về Chúng tôi
+                                </a>
+                            </li>
+                            <li class="footer_content-item">
+                                <a href="#" class="footer_content-link">
+                                    <i class="fa-solid fa-angles-right"></i>
+                                    thoả thuận sử dụng
+                                </a>
+                            </li>
+                            <li class="footer_content-item">
+                                <a href="#" class="footer_content-link">
+                                    <i class="fa-solid fa-angles-right"></i>
+                                    quy chế hoạt động
+                                </a>
+                            </li>
+                            <li class="footer_content-item">
+                                <a href="#" class="footer_content-link">
+                                    <i class="fa-solid fa-angles-right"></i>
+                                    chính sách bảo mật
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer_content">
+                        <div class="footer_content-header">
+                            <h3 class="footer_content-heading">KẾT NỐI</h3>
+                        </div>
+                        <div class="footer_social">
+                            <i class="fa-brands fa-facebook-square"></i>
+                            <i class="fa-brands fa-youtube"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                        <div class="footer_content-header">
+                            <h3 class="footer_content-heading">DOWNLOAD APP</h3>
+                        </div>
+                        <div class="footer_download">
+                            <i class="fa-brands fa-apple"></i>
+                            <i class="fa-brands fa-google-play"></i>
+                        </div>
+                    </div>
+                </div>
+                <p class="footer_copyright">&copy; tháng 3 năm 2022</p>
+            </footer>
+            <!-- End footer -->
+            <div class="model">
+                <div class=" model_body">
+                    <div class="model_header">
+                        <h3 class="model_heading active">đăng nhập</h3>
+                        <span>/</span>
+                        <h3 class="model_heading">đăng ký</h3>
+                    </div>
+                    <form class="form form-login form-display">
+                        <input type="email" class="model_login-email model_input" placeholder="Email" required>
+                        <input type="password" class="model_login-password model_input" placeholder="Mật khẩu" required>
+                        <a href="#" class="model_login-forgot-pass">Quên mật khẩu?</a>
+                        <button class="btn-model">đăng nhập</button>
+                    </form>
+                    <form class="form form-register">
+                        <input type="text" class="model_input model_register-name" placeholder="Họ Tên" required>
+                        <input type="email" class="model_register-email model_input" placeholder="Email" required>
+                        <input type="password" class="model_register-password model_input" placeholder="Mật khẩu" required>
+                        <input type="password" class="model_register-repassword model_input" placeholder="Nhập lại mật khẩu" required>
+                        <select name="sex" class="model_input model_register-sex" required>
+                            <option value="" disabled selected>Chọn giới tính</option>
+                            <option value="1">Nam</option>
+                            <option value="0">Nữ</option>
+                        </select>
+                        <input type="date" name="birthday" class="model_input" required>
+                        <button class="btn-model" id="btn-register">đăng ký</button>
+                    </form>
+                    <i class="fa-solid fa-xmark" id="btn-close"></i>
+                </div>
+                <div class="model_body model_forgot-password">
+                    <div class="model_header">
+                        <h3 class="model_heading active">quên mật khẩu</h3>
+                    </div>
+                    <p class="model_aleart">Vui lòng cung cấp email đăng nhập, chúng tôi sẽ gửi link kích hoạt cho bạn.</p>
+                    <form class="form form-forgot-password form-display">
+                        <input type="email" class="model_input" placeholder="Email">
+                        <button class="btn-model">Gửi email</button>
+                    </form>
+                    <i class="fa-solid fa-xmark" id="btn-close"></i>
+                </div>
+            </div>
+        </div>
+        <script src="js/main.js"></script>
+    </body>
+</html>
